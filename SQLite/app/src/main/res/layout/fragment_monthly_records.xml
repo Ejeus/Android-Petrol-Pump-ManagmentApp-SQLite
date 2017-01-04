@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bakhtiyar.helloauthentication.MonthlyRecords">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="25sp"
+           android:textColor="#00BCF8"
+           android:id="@+id/monthlytext"/>
+       <LinearLayout
+           android:background="#00BCF8"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <Button
+               android:layout_weight="1"
+               android:layout_margin="5dp"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="Total Sale"
+               android:id="@+id/totalSale"/>
+           <Button
+               android:layout_margin="5dp"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:textSize="10sp"
+               android:layout_height="wrap_content"
+               android:text="Total Purchase"
+               android:id="@+id/totalpurchase"/>
+           <Button
+               android:layout_weight="1"
+               android:layout_margin="5dp"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="Total Stock"
+               android:id="@+id/totalstock"/>
+       </LinearLayout>
+
+
+
+
+       <ListView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/monthlylist"></ListView>
+
+
+
+
+
+
+
+   </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "819575438701",
+    "firebase_url": "https://myfirstauthentication.firebaseio.com",
+    "project_id": "myfirstauthentication",
+    "storage_bucket": "myfirstauthentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819575438701:android:1e322eb6b52d5694",
+        "android_client_info": {
+          "package_name": "com.example.bakhtiyar.helloauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819575438701-75j274tgdbj07utidscfv2vsdl0k8n1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhxkUmqc7GFnaRCAnFBxg1xriYI78Mzg0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

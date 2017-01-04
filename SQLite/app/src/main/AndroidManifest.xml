@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bakhtiyar.helloauthentication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Inventry MANAGMENT SYSTEM"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".MainEmployPage" />
+        <activity android:name=".UpdateActivity" />
+        <activity android:name=".MainProductPage" />
+        <activity android:name=".ReadProductActivity" />
+        <activity android:name=".BossView" />
+        <activity android:name=".EventActivity" />
+        <activity android:name=".ViewEmployRecord" />
+        <activity android:name=".BossReadActivity"></activity>
+    </application>
+
+</manifest>

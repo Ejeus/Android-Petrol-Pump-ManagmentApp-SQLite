@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.bakhtiyar.helloauthentication.UpdateActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:id="@+id/uid"/>
+    <EditText
+        android:hint="Enter Name for Edit"
+        android:id="@+id/edempname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btnedempname"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="29sp"
+        android:text="Edit Name"
+
+        android:background="@drawable/button"
+        android:shadowColor="#1499A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+
+        android:id="@+id/edempfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Enter Father Name for Edit"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btnedempfname"
+        android:text="Edit Father Name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="29sp"
+
+        android:background="@drawable/button"
+        android:shadowColor="#1499A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Enter Age for Edit"
+        android:id="@+id/edempage"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btnedempage"
+        android:text="Edit Age"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="29sp"
+
+        android:background="@drawable/button"
+        android:shadowColor="#1499A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Enter Salary for Edit"
+        android:id="@+id/edempsalary"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btnedempsalary"
+        android:text="Edit Salary"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="29sp"
+
+        android:background="@drawable/button"
+        android:shadowColor="#1499A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Enter Phone for Edit"
+        android:id="@+id/edempphone"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btnedempphone"
+        android:text="Edit Phone"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="29sp"
+
+        android:background="@drawable/button"
+        android:shadowColor="#1499A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center"/>
+
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="textEmailSubject"
+        android:hint="Enter Email for Edit"
+        android:id="@+id/edempemail"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btnedempemail"
+        android:text="Edit Email"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="29sp"
+
+        android:background="@drawable/button"
+        android:shadowColor="#1499A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:background="@android:drawable/ic_menu_camera"
+
+        android:id="@+id/edemppic"
+        android:gravity="center"/>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/edimg"/>
+    <Button
+        android:text="Update edited pic"
+
+        android:id="@+id/btnedemppic"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="29sp"
+
+        android:background="@drawable/button"
+        android:shadowColor="#1499A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
+

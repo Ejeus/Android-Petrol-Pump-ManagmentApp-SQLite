@@ -1,0 +1,130 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bakhtiyar.helloauthentication.CngFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/cngcapacity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Capacity 0"
+                    android:textColor="#fff"
+                    android:background="#00BCF8"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/capacitycng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:hint="Write your Cylinder Capacity "
+                    android:inputType="number"
+                    android:textColor="#000" />
+
+                <Button
+                    android:layout_margin="20dp"
+                    android:textColor="#fff"
+
+                    android:textSize="15sp"
+                    android:id="@+id/btncngcapacity"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Please Enter Your Tank Capacity"
+
+                    android:background="@drawable/button"
+                    android:shadowColor="#1499A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_gravity="center"/>
+
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/petrolpurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:hint="Write purchasing in Kilo "
+                    android:textColor="#000" />
+
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/petrollitre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:hint="Write Sale in litre "
+                    android:textColor="#000" />
+
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/petrolprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:hint="Write price of litre "
+                    android:textColor="#000" />
+
+                <Button
+                    android:layout_margin="20dp"
+                    android:textColor="#fff"
+
+                    android:textSize="15sp"
+                    android:id="@+id/petrolbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Submit"
+
+                    android:background="@drawable/button"
+                    android:shadowColor="#1499A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:layout_margin="20dp"
+                    android:textColor="#fff"
+
+                    android:textSize="15sp"
+                    android:id="@+id/petrolsee"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="See"
+
+                    android:background="@drawable/button"
+                    android:shadowColor="#1499A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</FrameLayout>

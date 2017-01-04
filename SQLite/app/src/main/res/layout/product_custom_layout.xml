@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:id="@+id/prname"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Purchasing: "
+        android:gravity="center"
+        android:id="@+id/prpurch"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="sale: "
+        android:id="@+id/pursale"
+        android:gravity="center"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:text="Price: "
+        android:id="@+id/purprice"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stock: "
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/purstock"/>
+    <TextView
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:id="@+id/purdate"
+        android:gravity="right"
+        android:textColor="#000"
+        android:textSize="15sp"
+        />
+
+</LinearLayout>
